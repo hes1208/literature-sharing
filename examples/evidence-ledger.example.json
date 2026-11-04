@@ -1,0 +1,9 @@
+{
+  "description": "Synthetic evidence ledger. Replace every object with verified paper evidence. 模拟证据台账，不能用于验收真实论文。",
+  "sections": {"discussion": true, "conclusions": false, "policy": true},
+  "objects": [
+    {"kind": "figure", "number": "1", "source_page": 1, "screenshot": "assets/fig1.png", "caption": "图1 示例图名", "citation": "（图1）"},
+    {"kind": "table", "number": "1", "source_page": 1, "screenshot": "assets/table1.png", "caption": "表1 示例表名", "citation": "（表1）"},
+    {"kind": "equation", "number": "1", "source_page": 1, "screenshot": "assets/eq1.png", "caption": "公式（1）", "symbols": ["y", "x", "β"]}
+  ]
+}

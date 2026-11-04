@@ -1,0 +1,23 @@
+name: "问题反馈 / Bug report"
+description: "报告可复现的流程或工具问题 / Report a reproducible workflow or tooling issue"
+title: "[Bug] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "问题与预期 / Problem and expected behavior"
+      description: "说明实际与预期行为。请勿附未获许可的论文或私人材料。 / Do not attach private or unlicensed papers."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "复现步骤 / Steps to reproduce"
+      description: "尽可能使用模拟输入，附命令和报错。 / Prefer synthetic inputs; include commands and errors."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "运行环境 / Environment"
+      placeholder: "OS, Python version, assistant/host"

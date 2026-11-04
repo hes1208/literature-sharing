@@ -1,0 +1,9 @@
+{
+  "coordinate_system": "top-left-points",
+  "description": "Synthetic coordinates only. Replace after inspecting your PDF. 模拟坐标，须根据实际PDF修改。",
+  "regions": [
+    {"id": "fig1", "page": 1, "bbox": [40, 60, 400, 260]},
+    {"id": "table1", "page": 1, "bbox": [40, 280, 400, 430]},
+    {"id": "eq1", "page": 1, "bbox": [80, 450, 400, 490]}
+  ]
+}

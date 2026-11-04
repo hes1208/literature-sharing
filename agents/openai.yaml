@@ -1,0 +1,4 @@
+interface:
+  display_name: "文献分享 Literature Sharing"
+  short_description: "优先分析 Markdown，推荐 MinerU 转换，结合 PDF 截图核验制作中文 Word 文献分享稿"
+  default_prompt: "请使用 $literature-sharing，结合提供的论文原文和可选案例制作中文 Word 文献分享稿，检查公式符号、全部图表及中文注释。"

@@ -1,0 +1,27 @@
+# Local inputs and generated deliverables / 本地输入及生成稿
+/inputs/
+/outputs/
+/work/
+/qa/
+/private-examples/
+*.pdf
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
+*.zip
+*ledger.local.json
+*plan.local.json
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+~$*
+.env
+.env.*

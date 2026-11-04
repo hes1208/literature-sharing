@@ -1,0 +1,11 @@
+name: "改进建议 / Feature request"
+description: "提出有具体使用场景的改进 / Suggest a change with a concrete use case"
+title: "[Feature] "
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: "使用场景与改进方向 / Use case and proposal"
+      description: "说明何种论文分享任务需要这项改进。 / Describe the journal-club task this would improve."
+    validations:
+      required: true
